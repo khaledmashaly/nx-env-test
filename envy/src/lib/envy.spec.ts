@@ -1,5 +1,7 @@
+import { envy } from './envy';
+
 describe('envy', () => {
   it('should work', () => {
-    expect(process.env?.['ENVY']).toEqual('envy');
+    expect(envy()).toEqual('envy');
   });
 });

@@ -1,3 +1,3 @@
 export function envy(): string {
-  return 'envy';
+  return process.env?.['ENVY'] ?? '';
 }
